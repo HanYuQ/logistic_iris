@@ -1,12 +1,24 @@
 
 
-README
+logistic_iris
 ===========================
-该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
+Using Pytorch to implement the classification of Iris data sets\n
+Author :: Yeah_Highly\n
 
 ****
 	
-|Author|果冻虾仁|
-|---|---
-|E-mail|Jelly.K.Wang@qq.com
+**Dataset 
+***Iris_data : you can the raw data in logistic_iris/Dataset/Data.txt
+***You can see the Dataset.py to make the Iris_train/val/test.txt
+***as the iris_data.py to sends the data to DataLoad by Pytorch data style
+**Network
+**I just use a veryt easy network to take this task,loss function is crossentropy loss
+**Model
+***save the model
+**Training 
+***python IrisTrain.py
+**Testing 
+**python IrisTest.py
+  
+**Thank for you look up!
 
